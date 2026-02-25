@@ -1,0 +1,41 @@
+body {
+    background-color: #6766 ;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding-top: 50px;
+}
+h1 { background-color: #6765 ;
+font-family: 'Impact', 'Arial Black', sans-serif;
+color: #FF1111;
+font-size: 33px;
+text-transform: uppercase;
+text-align: center; 
+padding: 15px 30px;
+border-radius: 10px;
+}
+.pontos-principais {
+  background-color: #01B7;
+} 
+/* No seu style.css */
+@keyframes flash-red {
+    0% { background-color: #fff; }
+    50% { background-color: #ff0000; } /* Vermelho vivo */
+    100% { background-color: #fff; }
+}
+
+.atencao-virus {
+    animation: flash-red 0.15s infinite !important; /* Pisca muito rápido */
+}
+
+
+
+
+button {
+    padding: 30px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+}
